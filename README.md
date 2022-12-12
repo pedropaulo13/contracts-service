@@ -1,7 +1,7 @@
 # Contract service
 
 ## 1. Requisitos
-- Para cada contrato existe 3 estados (Criação, Upload de Imagens e Aprovação)
+- Para cada contrato existe 3 estados (Criação, alteração e Aprovação)
 - O contrato sempre irá inciar no estado de *Criação*.
 - O contrato deve seguir o fluxo de estado de uma forma linear, nunca podendo estar mais de 1 estado ao mesmo tempo. (Conforme descrito no *tópico 3*)
 - Somente quando o usuário enviar todos os dados **obrigatórios** ao estado que se encontra, ele pode navegar para o próximo estado. (Dados descrito no *tópico 4*)
